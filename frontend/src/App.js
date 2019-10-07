@@ -1,9 +1,21 @@
 import React from 'react';
 import './App.css';
+import logo from './assets/logo.svg';
+
+import Routes from './routes';
 
 function App() {
+
+
   return (
-    <h3>Hello Mundo!</h3>
+    <div className="container">
+      <img src={logo} alt="AirCnC" />
+
+      <div className="content">
+        <Routes></Routes>
+
+      </div>
+    </div>
   );
 }
 
